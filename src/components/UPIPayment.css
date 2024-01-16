@@ -1,0 +1,61 @@
+
+@media screen and (min-width: 768px) {
+    .upiLabel {
+        display: inline-block;
+        width: 150px;
+        margin-left: 50px;
+    }
+    .upiInput {
+        display: inline-block;
+        margin-top: 15px;
+        height: 20px;
+        width: 250px;
+        border: 1px solid black;
+        border-radius: 8px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .upiLabel {
+        display: inline-block;
+        width: 150px;
+        text-align: left;
+        margin-top: 10px;
+        margin-right: 100px;
+    }
+    .upiInput {
+        display: inline-block;
+        height: 20px;
+        width: 250px;
+        border: 1px solid black;
+        border-radius: 8px;
+    }
+}
+/* .upiInput {
+    width: 300px;
+    height: 20px;
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+} */
+@media screen and (min-width: 768px) {
+    .upibtn {
+        width: 150px;
+        height:30px;
+        background-color: lightblue;
+        border: 1px solid black;
+        border-radius: 6px;
+        margin-left:200px ;
+        margin-top: 20px;
+    }
+}
+@media screen  and (max-width:768px) {
+    .upibtn {
+        width: 150px;
+        height:30px;
+        background-color: lightblue;
+        border: 1px solid black;
+        border-radius: 6px;
+        margin-top: 10px;
+    }
+}

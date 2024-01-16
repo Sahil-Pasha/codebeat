@@ -1,0 +1,73 @@
+.netInputLabel {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    margin-left: 100px;
+}
+.netInput {
+    display: inline-block;
+    margin-top: 15px;
+    height: 20px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+/* Styles for screens greater than 768px */
+@media screen and (min-width: 768px) {
+    .errorPara {
+        font-size: 14ox;
+        margin-left: 160px;
+        color: red;
+    }
+}
+/* Styles for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    .errorPara {
+        font-size: 14ox;
+        /* margin-left: 160px; */
+        color: red;
+    }
+}
+/* Styles for screens greater than 768px */
+@media screen and (min-width: 768px) {
+    .netAlertDiv {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-left: 100px;
+    }
+}
+/* Styles for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    .netAlertDiv {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+/* Styles for screens greater than 768px */
+@media screen and (min-width: 768px) {
+.NetButton {
+    width:150px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 250px;
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    }
+}
+/* Styles for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    .NetButton {
+        width:150px;
+        height: 30px;
+        margin-top: 10px;
+        background-color: lightblue;
+        border: 1px solid black;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+}
